@@ -24,3 +24,7 @@ expp m (Suc n) = mul (expp m n) m
 
 z :: Int -> Natural
 z n = toEnum n
+
+isZero :: Natural -> Bool
+isZero Zero = True
+isZero (Suc _) = False
