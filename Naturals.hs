@@ -33,3 +33,4 @@ expp m (Suc n) = mul (expp m n) m
 
 z :: Int -> Naturals
 z n = toEnum n
+
